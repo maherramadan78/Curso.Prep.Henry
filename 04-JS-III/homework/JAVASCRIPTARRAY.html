@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+    <BODY>
+        <h2>JavaScript Array</h2>
+        <p>the best way to loop through ana array is using a standard for loop:</p>
+        <p id="demo"></p>
+
+        <script>
+            const fruits =  ["Banana", "Orange", "Apple", "Mango"];
+            let flen  = fruits.length;
+
+            let text = "<ul>";
+                for (let i = 0; i < flen; i++) {
+                    text += "<li>" + fruits[i] + "<li>";
+                }
+                text += "</ul>";
+
+                document.getElementById("demo").innerHTML = text;
+                  </script>
+
+    </BODY>
+</html>
